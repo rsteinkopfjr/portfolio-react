@@ -21,6 +21,7 @@ class NavBar extends Component {
             <img src={logo} width="70" height="70" alt="" />
           </div>
           <div className="navbar-nav">
+            {/* <h4>Robert Steinkopf Jr</h4> */}
             {/* <label htmlFor="icon-switch">
               <Switch
                 checked={this.state.checked}
