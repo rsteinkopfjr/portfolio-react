@@ -4,7 +4,7 @@
 
 /* Navbar */
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p {
   color: #e7e7e7;
 }
 
@@ -117,4 +117,10 @@ div#alphatron.jumbotron {
   to {
     opacity: 1;
   }
+}
+
+/* About Section */
+
+.aboutSection {
+  text-align: center;
 }

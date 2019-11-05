@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import letterH from "../../images/alphabet/darktheme/h-light-full.png";
-import letterI from "../../images/alphabet/darktheme/i-light-full.png";
-import letterM from "../../images/alphabet/darktheme/m-light-full.png";
-import letterR from "../../images/alphabet/darktheme/r-light-full.png";
-import letterO from "../../images/alphabet/darktheme/o-light-full.png";
-import letterB from "../../images/alphabet/darktheme/b-light-full.png";
-import space from "../../images/alphabet/darktheme/space.png";
-import apostrophe from "../../images/alphabet/darktheme/apostrophe-light-full.png";
+import letterH from "../images/alphabet/darktheme/h-light-full.png";
+import letterI from "../images/alphabet/darktheme/i-light-full.png";
+import letterM from "../images/alphabet/darktheme/m-light-full.png";
+import letterR from "../images/alphabet/darktheme/r-light-full.png";
+import letterO from "../images/alphabet/darktheme/o-light-full.png";
+import letterB from "../images/alphabet/darktheme/b-light-full.png";
+import space from "../images/alphabet/darktheme/space.png";
+import apostrophe from "../images/alphabet/darktheme/apostrophe-light-full.png";
 
 class Jumbotron extends Component {
   render() {
