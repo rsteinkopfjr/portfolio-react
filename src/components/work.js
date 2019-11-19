@@ -18,20 +18,32 @@ class Work extends Component {
               <p className="card-text">Website designed for a local bakery.</p>
             </div>
             <div className="card-footer text-right">
-              <img
-                src={WebLogo}
-                height="25"
-                width="25"
-                alt="Web Logo"
-                className="cardFooterLogo"
-              />
-              <img
-                src={GitLogo}
-                height="25"
-                width="25"
-                alt="Github Logo"
-                className="cardFooterLogo"
-              />
+              <a
+                href="https://agile-savannah-42839.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={WebLogo}
+                  height="25"
+                  width="25"
+                  alt="Web Logo"
+                  className="cardFooterLogo"
+                />
+              </a>
+              <a
+                href="https://github.com/rsteinkopfjr/thebakery"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={GitLogo}
+                  height="25"
+                  width="25"
+                  alt="Github Logo"
+                  className="cardFooterLogo"
+                />
+              </a>
             </div>
           </div>
           <div className="card text-white">
@@ -122,12 +134,8 @@ class Work extends Component {
               </a>
             </div>
           </div>
-          <div className="card cardEmpty text-white">
-  
-          </div>
-          <div className="card cardEmpty text-white">
-  
-          </div>
+          <div className="card cardEmpty text-white"></div>
+          <div className="card cardEmpty text-white"></div>
         </div>
       </div>
     );
