@@ -134,7 +134,10 @@ div#alphatron.jumbotron {
 /* Work Section */
 
 .workSection {
-  margin-bottom: 20rem;
+  margin-bottom: 15rem;
+}
+.card-deck {
+  margin-top: 5rem;
 }
 .card {
   background: transparent !important;
