@@ -93,20 +93,32 @@ class Work extends Component {
               </p>
             </div>
             <div className="card-footer text-right">
-              <img
-                src={WebLogo}
-                height="25"
-                width="25"
-                alt="Web Logo"
-                className="cardFooterLogo"
-              />
-              <img
-                src={GitLogo}
-                height="25"
-                width="25"
-                alt="Github Logo"
-                className="cardFooterLogo"
-              />
+              <a
+                href="https://nameless-cliffs-39314.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={WebLogo}
+                  height="25"
+                  width="25"
+                  alt="Web Logo"
+                  className="cardFooterLogo"
+                />
+              </a>
+              <a
+                href="https://github.com/rsteinkopfjr/scraper"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={GitLogo}
+                  height="25"
+                  width="25"
+                  alt="Github Logo"
+                  className="cardFooterLogo"
+                />
+              </a>
             </div>
           </div>
         </div>
