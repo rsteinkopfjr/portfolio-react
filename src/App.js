@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./components/navbar";
 import Jumbotron from "./components/jumbotron";
 import About from "./components/about";
+import Work from "./components/work";
 import "./App.css";
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
           <div className="chevron chevron-light" />
         </div>
         <About />
+        <Work />
       </div>
     );
   }

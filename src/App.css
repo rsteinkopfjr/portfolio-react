@@ -5,7 +5,7 @@
 /* Navbar */
 
 h1, h2, h3, h4, p {
-  color: #e7e7e7;
+  color: #F3F2F1;
 }
 
 /* Jumbotron */
@@ -85,7 +85,7 @@ div#alphatron.jumbotron {
 }
 .chevron-light:before,
 .chevron-light:after {
-  background: #F3F2F1;
+  background: #73e0ce;
 }
 .chevron:before {
   left: 0;
@@ -123,4 +123,29 @@ div#alphatron.jumbotron {
 
 .aboutSection {
   text-align: center;
+  margin-bottom: 15rem;
+  margin-top: 5rem;
+}
+.aboutSection p {
+  font-size: 22px;
+  line-height: 45px;
+}
+
+/* Work Section */
+
+.workSection {
+  margin-bottom: 20rem;
+}
+.card {
+  background: transparent !important;
+  border: #74e0ce solid 4px;
+}
+.card-footer {
+  border-top: #74e0ce solid 4px;
+}
+.card-img-top {
+  padding: 5px;
+}
+.cardFooterLogo {
+  margin-right: 15px;
 }
